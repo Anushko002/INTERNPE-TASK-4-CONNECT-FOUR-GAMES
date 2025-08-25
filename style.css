@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+#game {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(7, 60px);
+  grid-template-rows: repeat(6, 60px);
+  gap: 5px;
+  background: #0055aa;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+#status {
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
